@@ -4,4 +4,5 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => res.send('Hello node.js'));
 app.get('/welcome', (req, res) => res.send('welcome_page'));
+app.get('/check', (req, res) => res.send('check_page'));
 app.listen(port, () => console.log('Example app listening on port 3000'))
